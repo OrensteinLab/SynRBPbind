@@ -19,7 +19,7 @@ WTs = list(RBPs['wt'])
 proteins = list(RBPs['name'])
 # utiles.createFolder('figures')
 utiles.createFolder('temporary')
-
+utiles.createFolder('output_files')
 #change this to get the script to check the common sequences between the 3 libraries
 check_common = False
 

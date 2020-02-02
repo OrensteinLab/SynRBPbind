@@ -7,6 +7,8 @@ pleas see variables:
     # Folds
 these variables are located before the wt-specific model selction (lines 27-28) 
 and befor the CNN model selection lines(165-166)
+note that for proper hyper parameters selection you will need to delete the lines in the code that define parametres +to check the code+
+this lines are just above the Nsets and Folds parameters
 """
 
  
