@@ -5,10 +5,10 @@ Installation
 ------------
 There is no need to install the software but the dependencies are:
 Programs installed on your Unix computer:
-        RNAfold (Vienna package)
-        MATLAB
+        RNAfold 2.4.13(Vienna package)
+        MATLAB 2018
 	python3.6.6 with packages 
-		tensorflow 2, keras, scipy, numpy, pandas 25.3, itertools, pickle
+		tensorflow 2, scipy 1.4.1, numpy 1.17.3, pandas 25.3, itertools, pickle
 
 Necessary files
 ---------------
