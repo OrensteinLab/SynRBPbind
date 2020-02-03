@@ -8,7 +8,7 @@ Programs installed on your Unix computer:
         RNAfold 2.4.13(Vienna package)
         MATLAB 2018
 	python3.6.6 with packages 
-		tensorflow 2, scipy 1.4.1, numpy 1.17.3, pandas 25.3, itertools, pickle
+		tensorflow 2.0.0, scipy 1.4.1, numpy 1.17.3, pandas 25.3, itertools, pickle
 
 Necessary files
 ---------------
