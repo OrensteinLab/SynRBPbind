@@ -95,25 +95,25 @@ Optional:
 									defult:4
 
 4. WT_specific.py - trains the WT-specific models (6 of them) and uses them to predict on all 1-hamming
-						distance from WT sequecnes. 
+						distance from WT sequences. 
 						Each model provides prediction only for sequences with the same length as the
 						original WT
-						argumants:
+						arguments:
 						--trainfile : specify the directory+file name of the xlsx file containing the 
 									  train data. 
 									  defult: 'data/Data.xlsx'
 						--train : 0 - don't tain the models, just load them, 1: train them using the
 									   data in the file above
 									   defult: 1
-						--predict: 0 dont use the model for predictions, 1: predict on all 1-hamming
-									  distance from WT sequecnes. 
+						--predict: 0 don't use the model for predictions, 1: predict on all 1-hamming
+									  distance from WT sequences. 
 									  defult: 1
 					
 5. create_single_double_binders.py - this will use the files created by the "whole_library" script after
 									 runnind in prediction mode to seperate the sequences to double and 
 									 single binders, it will also delete from the sequences list any
 									 sequence that appears on the original data set.
-									 argumants:
+									 arguments:
 									 --RuunNum: the run index of the prediction process, so the program 
 												will know what data to use.
 												defult: last run.
