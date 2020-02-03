@@ -68,7 +68,7 @@ We recommend running the scripts in the following order.
 					  
 
 Optional: 
-2. model_selection.py - tests models and hyper parameters to find the optimal model for each protein
+2. model_selection.py - tests models and hyper parameters to find the optimal model for each protein.
 			This script takes a lot of time to complete.
 			This can be skipped, a pre-trained model is loaded or a model is trained with a specified set of
 			hyper parameters.
