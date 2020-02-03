@@ -80,7 +80,7 @@ Optional:
 					it can train the models/ or predict using a pre-trained models.
                     It generates a csv file that containes all given sequences and predictions for them.
                     The training of all 3 models takes about 5 minutes.
-					argumants:
+					arguments:
 					--train : 0 - don't tain the models, just load them, 1: train them using the
 								   data in the file above
 								   defult: 0
