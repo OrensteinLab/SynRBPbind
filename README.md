@@ -7,8 +7,8 @@ There is no need to install the software but the dependencies are:
 Programs installed on your Unix computer:
         RNAfold (Vienna package)
         MATLAB
-	python3.6 with packages 
-		tensorflow 2, keras, scipy, numpy, pandas, itertools, random, pickle
+	python3.6.6 with packages 
+		tensorflow 2, keras, scipy, numpy, pandas 25.3, itertools, pickle
 
 Necessary files
 ---------------
