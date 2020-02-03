@@ -85,7 +85,7 @@ Optional:
 								   data in the file above
 								   defult: 0
 					--predict: 0 dont use the model for predictions, 1: predict on all 1-hamming
-								  distance from WT sequecnes. 
+								  distance from WT sequences. 
 								  defult: 0				
 					--createseqs: create the sequnces that are within mind and maxd distance from thw WT
 								  defult: 0
