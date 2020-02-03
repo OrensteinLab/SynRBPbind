@@ -17,7 +17,7 @@ from tensorflow.keras.layers import Flatten,Conv1D,Dense
 from tensorflow.keras.models import Sequential
 # from keras.layers import Flatten,Conv1D,Dense
 # from keras.models import Sequential
-#import scipy.stats as stat
+import scipy.stats as stat
 import pickle
 import numpy as np
 import random
@@ -46,7 +46,7 @@ epochs = list(range(1,20,10))
 ParamsDic = {'Nodes':Nodes,'Layers':Layers,'Activations':Activations,'epochs':epochs}
 #==============================================================================
 for p in proteins:
-    '''
+    
     SNPS = pd.read_csv('temporary/'+p+' all snps.csv') 
     OH = utiles.OneHot(SNPS['seq'])
     OH = np.asarray(OH)
@@ -172,7 +172,7 @@ for p in proteins:
         predictions = model.predict(OH1)
         DF = pd.DataFrame(predictions)
         DF.to_csv('temporary/'+p+Prefix+'_predictions.csv',index=False)
-'''
+
 #%% CNN
 utiles.createFolder('temporary/whole_library_model_selection')
 utiles.createFolder('temporary/whole_library_final_models')
