@@ -113,7 +113,7 @@ Optional:
 									 single binders, it will also delete from the sequences list any
 									 sequence that appears on the original data set.
 									 arguments:
-									 --RuunNum: the run index of the prediction process, so the program 
+									 --RunNum: the run index of the prediction process, so the program 
 												will know what data to use.
 												defult: last run.
 
