@@ -7,6 +7,7 @@ one more file type that is an output for this program is the model prediction
 all SNPS with the same length as the wt of the protein.
 
 installation:
+------------
 there is no need to install the software but the dependencies specified below.
 
 Under data folder:
