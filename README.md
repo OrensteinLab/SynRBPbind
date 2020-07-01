@@ -11,7 +11,7 @@ installation:
 there is no need to install the software but the dependencies specified below.
 
 Under data folder:
-
+------------
 RBPs.csv -
 	contains a list of N proteins and their known wild type binding sites
 	(one site for each protein) including their known RNA secondary structure
@@ -39,6 +39,7 @@ TSS.txt
 Examples for all file formats are in the data folder.	
 
 Code (python scripts):
+-----------
 dependencies: to run the program sucsefully you will need the following
 programs installed on your computer (unix):
 	RNAfold (Vienna package)
@@ -47,7 +48,7 @@ programs installed on your computer (unix):
 	random, pickle
 
 This is the order in which we recommend running the scripts:
-
+----------------------------------------------------------
 1. files_creation.py - creates temporary files of the encoded data.
 					  it uses the data in the data.xlsx file to create:
 					  files of the edit distances (for plot of the histograms)
@@ -130,6 +131,7 @@ Optional:
 
 
 How to run the program?
+---------------------
 
 All scripts expect specific file names in the data folder.
 
